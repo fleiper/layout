@@ -1,0 +1,48 @@
+@media(max-width:600px){
+    body{
+        background-color: rgb(13, 225, 187);
+    }
+}
+ 
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 12px;
+    }
+    section img {
+        width: 100%;
+    }
+}
+ 
+@media (min-width: 601px) and (max-width: 900px) {
+    section img {
+        width:75%;
+    }
+    body {
+        background-color: rgb(108, 15, 158);
+    }
+}
+ 
+@media (min-width: 901px) and (max-width: 1200px) {
+    section img {
+        width:50%;
+    }
+    body {
+        background-color: rgb(15, 9, 174);
+    }
+}
+@media (min-width: 300) and (max-width: 501px) {
+    section img {
+        width:50%;
+    }
+    body {
+        background-color: rgb(9, 174, 69);
+    }
+    @media (min-width: 001) and (max-width: 250px) {
+        section img {
+            width:50%;
+        }
+        body {
+            background-color: rgb(174, 9, 119);
+        }
+}
+}
